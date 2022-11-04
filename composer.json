@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "license": "OSL-3.0",
     "require": {
-        "swissup/module-breeze": "^1.13.5"
+        "swissup/module-breeze": "^1.13.5",
+        "paypal/module-braintree-core": "^4.0.0"
     },
     "autoload": {
         "files": [
