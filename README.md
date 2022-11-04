@@ -1,8 +1,8 @@
-# Paypal Braintee Integration
+# Paypal Braintree Integration
 
 ## Installation
 
 ```bash
-composer require swissup/module-breeze-paypal-braintee
+composer require swissup/module-breeze-paypal-braintree
 bin/magento setup:upgrade --safe-mode=1
 ```
