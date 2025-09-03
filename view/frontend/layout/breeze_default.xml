@@ -2,50 +2,49 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <!--
         <referenceBlock name="breeze.js">
             <arguments>
                 <argument name="bundles" xsi:type="array">
                     <item name="dynamic" xsi:type="array">
                         <item name="items" xsi:type="array">
                             <item name="braintree" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/client.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/client.min.js</item>
                                 <item name="global" xsi:type="string">braintree.client</item>
                             </item>
                             <item name="braintreePayPalCheckout" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/paypal-checkout.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/paypal-checkout.min.js</item>
                                 <item name="global" xsi:type="string">braintree.paypalCheckout</item>
                             </item>
                             <item name="braintreeHostedFields" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/hosted-fields.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/hosted-fields.min.js</item>
                                 <item name="global" xsi:type="string">braintree.hostedFields</item>
                             </item>
                             <item name="braintreeDataCollector" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/data-collector.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/data-collector.min.js</item>
                                 <item name="global" xsi:type="string">braintree.dataCollector</item>
                             </item>
                             <item name="braintreeThreeDSecure" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/three-d-secure.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/three-d-secure.min.js</item>
                                 <item name="global" xsi:type="string">braintree.threeDSecure</item>
                             </item>
                             <item name="braintreeApplePay" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/apple-pay.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/apple-pay.min.js</item>
                                 <item name="global" xsi:type="string">braintree.applePay</item>
                             </item>
                             <item name="braintreeGooglePay" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/google-payment.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/google-payment.min.js</item>
                                 <item name="global" xsi:type="string">braintree.googlePayment</item>
                             </item>
                             <item name="braintreeVenmo" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/venmo.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/venmo.min.js</item>
                                 <item name="global" xsi:type="string">braintree.venmo</item>
                             </item>
                             <item name="braintreeAch" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/us-bank-account.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/us-bank-account.min.js</item>
                                 <item name="global" xsi:type="string">braintree.usBankAccount</item>
                             </item>
                             <item name="braintreeLpm" xsi:type="array">
-                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.97.2/js/local-payment.min.js</item>
+                                <item name="path" xsi:type="string">https://js.braintreegateway.com/web/3.112.0/js/local-payment.min.js</item>
                                 <item name="global" xsi:type="string">braintree.localPayment</item>
                             </item>
                             <item name="googlePayLibrary" xsi:type="string">https://pay.google.com/gp/p/js/pay</item>
@@ -53,23 +52,13 @@
                             <item name="braintreeCheckoutPayPalAdapter" xsi:type="array">
                                 <item name="path" xsi:type="string">PayPal_Braintree/js/view/payment/adapter</item>
                             </item>
-                            <item name="PayPal_Braintree/js/paypal/button" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezePaypalBraintree/js/paypal-button</item>
-                                <item name="import" xsi:type="array">
-                                    <item name="braintree" xsi:type="string">braintree</item>
-                                    <item name="braintreeCheckoutPayPalAdapter" xsi:type="string">braintreeCheckoutPayPalAdapter</item>
-                                    <item name="braintreeDataCollector" xsi:type="string">braintreeDataCollector</item>
-                                    <item name="braintreePayPalCheckout" xsi:type="string">braintreePayPalCheckout</item>
-                                    <item name="PayPal_Braintree/js/form-builder" xsi:type="string">PayPal_Braintree/js/form-builder</item>
-                                    <item name="PayPal_Braintree/js/helper/remove-non-digit-characters" xsi:type="string">PayPal_Braintree/js/helper/remove-non-digit-characters</item>
-                                    <item name="PayPal_Braintree/js/helper/replace-single-quote-character" xsi:type="string">PayPal_Braintree/js/helper/replace-single-quote-character</item>
-                                </item>
+                            <item name="PayPal_Braintree/*" xsi:type="array">
+                                <item name="path" xsi:type="string">PayPal_Braintree/*</item>
                             </item>
                         </item>
                     </item>
                 </argument>
             </arguments>
         </referenceBlock>
-        -->
     </body>
 </page>

@@ -5,8 +5,8 @@
     "version": "1.0.1",
     "license": "MIT",
     "require": {
-        "swissup/module-breeze": "^2.0.0",
-        "paypal/module-braintree-core": "^4.0.0"
+        "swissup/module-breeze": "^2.24.13",
+        "paypal/module-braintree-core": "^4.7.0"
     },
     "autoload": {
         "files": [
