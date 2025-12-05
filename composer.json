@@ -2,7 +2,7 @@
     "name": "swissup/module-breeze-paypal-braintree",
     "description": "Paypal Braintree module integration with Breeze Frontend",
     "type": "magento2-module",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "license": "MIT",
     "require": {
         "swissup/module-breeze": "^2.25.0",
