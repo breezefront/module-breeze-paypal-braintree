@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "swissup/module-breeze": "^2.25.0",
-        "paypal/module-braintree-core": "^4.7.0"
+        "paypal/module-braintree-core": "^4.6.0"
     },
     "autoload": {
         "files": [
